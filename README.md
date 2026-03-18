@@ -1,4 +1,175 @@
 
+# EPUB2HTML Tool / EPUB转HTML工具
+
+[![Windows](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/luckyme258/epub2html-tool/releases)
+[![Linux](https://img.shields.io/badge/platform-Linux-orange)](https://github.com/luckyme258/epub2html-tool/releases)
+[![Release](https://img.shields.io/github/v/release/luckyme258/epub2html-tool)](https://github.com/luckyme258/epub2html-tool/releases)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+## 📖 Introduction / 简介
+
+**English**  
+EPUB2HTML Tool is a GUI application that converts EPUB eBooks to well-structured HTML files, making them easy to read and share in browsers.  
+Currently supports Windows (EXE), with Linux (DEB) version coming soon.
+
+**中文**  
+EPUB转HTML工具是一款图形化应用程序，能够将EPUB电子书转换为结构清晰的HTML文件，方便在浏览器中阅读和分享。  
+目前支持Windows版本（EXE），Linux版本（DEB）即将推出。
+
+---
+
+## ✨ Features / 功能特性
+
+| English | 中文 |
+|---------|------|
+| ✅ **Graphical User Interface** - No command line needed | ✅ **图形化界面** - 无需记忆命令 |
+| ✅ **Smart Parsing** - Automatically extract table of contents | ✅ **智能解析** - 自动提取目录结构 |
+| ✅ **Text Optimization** - Fix English contractions and punctuation | ✅ **文本优化** - 智能修复英文缩写和标点 |
+| ✅ **Tool Extraction** - Identify and extract tool modules | ✅ **工具提取** - 自动识别并提取工具模块 |
+| ✅ **Chapter Summary** - Extract "Chapter Summary" sections | ✅ **章节小结** - 自动提取“本章小结”内容 |
+| ✅ **Theme Switching** - Day/Night mode support | ✅ **主题切换** - 支持日间/夜间模式 |
+| ✅ **Mobile Friendly** - Responsive HTML output | ✅ **移动端适配** - 生成的HTML支持手机浏览 |
+| ✅ **Reading Progress** - Real-time progress indicator | ✅ **阅读进度** - 实时显示阅读进度 |
+| ✅ **Bilingual Parsing** - Supports standard EPUB e-books in both Chinese and English | ✅ **双语解析** - 支持中英文标准 EPUB 电子书 |
+| ⚠️ **Compatibility Note** - Non-standard EPUB files may fail to parse. If you encounter problems, please try other EPUB versions of the book | ⚠️ **兼容说明** - 非标准 EPUB 可能解析失败。如遇问题，请尝试更换该书的其它 EPUB 版本 |
+
+---
+
+## 🖼️ Screenshots / 截图
+
+### 📦 Two Separate Versions / 两个独立版本
+
+This tool provides **English version** and **Chinese version** as two separate executables. Below are screenshots showing both versions' interfaces and features.
+本工具提供**英文版**和**中文版**两个独立版本，以下截图展示两个版本的界面和功能。
+
+---
+
+#### 🇬🇧 English Version (epub2html_Eng.exe)
+
+| | |
+|:---:|:---:|
+| **☀️ Day Mode / 日间模式** | **🌙 Night Mode / 夜间模式** |
+| ![English UI Day Mode](screenshots/English%20UI-英文界面.png) | *Coming Soon / 即将添加* |
+| *English version main interface (Day mode)* | *English version night mode* |
+| *英文版本主界面（日间模式）* | *英文版本夜间模式* |
+
+---
+
+#### 🇨🇳 Chinese Version (epub2html_CN.exe)
+
+| | |
+|:---:|:---:|
+| **☀️ Day Mode / 日间模式** | **🌙 Night Mode / 夜间模式** |
+| ![Chinese UI Day Mode](screenshots/Chinese%20UI-中文界面.png) | ![Chinese UI Night Mode](screenshots/PC-CN-NightMode.png) |
+| *Chinese version main interface (Day mode)* | *Chinese version night mode* |
+| *中文版本主界面（日间模式）* | *中文版本夜间模式* |
+
+| | |
+|:---:|:---:|
+| **🖥️ Chinese UI Detail / 中文界面特写** |
+| ![Chinese UI Detail](screenshots/PC-CN-DayMode.png) |
+| *Chinese version interface close-up (Day mode)* |
+| *中文版本界面特写（日间模式）* |
+
+---
+
+### 📱 Mobile HTML Output / 移动端HTML输出
+
+The generated HTML files are responsive and work perfectly on mobile devices, with both day/night themes.
+生成的HTML文件支持响应式设计，完美适配移动设备，并支持日间/夜间主题切换。
+
+| | |
+|:---:|:---:|
+| **☀️ Day Mode / 日间模式** | **🌙 Night Mode / 夜间模式** |
+| ![Mobile Day Mode](screenshots/Mobile-Eng-DayMode.jpg) | ![Mobile Night Mode](screenshots/Mobile-Eng-NightMode.jpg) |
+| *Mobile view - Day mode* | *Mobile view - Night mode* |
+| *移动端日间模式浏览效果* | *移动端夜间模式浏览效果* |
+
+---
+
+### 📋 Screenshot Inventory / 截图清单
+
+| # | Filename / 文件名 | Content / 内容 | Version / 版本 |
+|:-:|:---|:---|:---:|
+| 1 | `English UI-英文界面.png` | English version main interface (Day mode) / 英文版主界面（日间模式） | 🇬🇧 English |
+| 2 | `Chinese UI-中文界面.png` | Chinese version main interface (Day mode) / 中文版主界面（日间模式） | 🇨🇳 Chinese |
+| 3 | `PC-CN-DayMode.png` | Chinese version interface close-up (Day mode) / 中文版界面特写（日间模式） | 🇨🇳 Chinese |
+| 4 | `PC-CN-NightMode.png` | Chinese version night mode / 中文版夜间模式 | 🇨🇳 Chinese |
+| 5 | `Mobile-Eng-DayMode.jpg` | Mobile output - Day mode / 移动端输出 - 日间模式 | 📱 Mobile |
+| 6 | `Mobile-Eng-NightMode.jpg` | Mobile output - Night mode / 移动端输出 - 夜间模式 | 📱 Mobile |
+
+---
+
+## 🚀 Download & Installation / 下载安装
+
+### 🪟 Windows
+
+**English**  
+1. Download the appropriate version from [Releases](https://github.com/luckyme258/epub2html-tool/releases):  
+   - `epub2html_Eng.exe` for English interface  
+   - `epub2html_CN.exe` for Chinese interface  
+2. Double-click to run (no installation required)  
+3. Click "Browse" to select an EPUB file  
+4. Click "Start Conversion"  
+5. The generated HTML file will open automatically in your default browser
+
+**中文**  
+1. 从 [Releases](https://github.com/luckyme258/epub2html-tool/releases) 页面下载对应版本：  
+   - 英文界面请下载 `epub2html_Eng.exe`  
+   - 中文界面请下载 `epub2html_CN.exe`  
+2. 双击运行（无需安装）  
+3. 点击"浏览"选择EPUB文件  
+4. 点击"开始转换"  
+5. 生成的HTML文件将自动在默认浏览器中打开
+
+### 🐧 Linux (Coming Soon / 即将推出)
+
+**English**  
+- DEB package for Debian/Ubuntu-based distributions will be available in future releases  
+- Installation: `sudo dpkg -i epub2html-tool.deb`  
+- Stay tuned for updates!
+
+**中文**  
+- 适用于Debian/Ubuntu等发行版的DEB包将在后续版本中提供  
+- 安装命令：`sudo dpkg -i epub2html-tool.deb`  
+- 敬请期待！
+
+---
+
+## ⚙️ Version Selection Guide / 版本选择指南
+
+| | English Version / 英文版 | Chinese Version / 中文版 |
+|:---|:---:|:---:|
+| **Executable / 执行文件** | `epub2html_Eng.exe` | `epub2html_CN.exe` |
+| **Interface Language / 界面语言** | 🇬🇧 English | 🇨🇳 中文 |
+| **Target Users / 目标用户** | International users | Chinese users |
+| **Screenshot / 截图** | ![English UI](screenshots/English%20UI-英文界面.png) | ![Chinese UI](screenshots/Chinese%20UI-中文界面.png) |
+| **Functionality / 功能** | ✅ Identical / 完全相同 | ✅ Identical / 完全相同 |
+
+> **💡 Note / 说明**: Both versions have the same functionality - only the interface language differs. The generated HTML files support both English and Chinese content.
+> **💡 说明**：两个版本功能完全相同，仅界面语言不同。生成的HTML文件均支持中英文内容。
+
+---
+
+## 📁 File Structure / 文件结构
+
+```
+epub2html-tool/
+├── 📦 Windows Version / Windows版本
+│   ├── epub2html_Eng.exe          # English version / 英文版
+│   └── epub2html_CN.exe           # Chinese version / 中文版
+├── 📦 Linux Version / Linux版本 (Coming Soon / 即将推出)
+│   └── epub2html-tool.deb          # DEB package / DEB包
+├── 📸 Screenshots / 截图
+│   ├── English UI-英文界面.png      # English version screenshot
+│   ├── Chinese UI-中文界面.png      # Chinese version main interface
+│   ├── PC-CN-DayMode.png           # Chinese version day mode close-up
+│   ├── PC-CN-NightMode.png         # Chinese version night mode
+│   ├── Mobile-Eng-DayMode.jpg      # Mobile output day mode
+│   └── Mobile-Eng-NightMode.jpg    # Mobile output night mode
+└── README.md                        # Documentation / 文档
+```
+
 ---
 
 ## ⚠️ Notes / 注意事项
@@ -125,3 +296,5 @@ Your support encourages me to keep improving this tool.
 ---
 
 **Thank you for using EPUB2HTML Tool! / 感谢使用EPUB转HTML工具！**
+```
+
